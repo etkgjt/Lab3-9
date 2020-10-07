@@ -21,7 +21,25 @@
       <guid>d32dbd9e-82e4-490e-a89c-508763889e85</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/test case 2</testCaseId>
+      <testCaseId>Test Cases/test case 2 for lab 1 and lab 2</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>62bf3fe2-7596-4517-9205-1eadf535aa0f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b131bfd3-9366-43b8-996f-3cf7cf5c9fa5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2b91d068-a417-4f6c-8153-764601ee98e9</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>896684a8-f733-4be2-8641-1834aacd2a85</guid>

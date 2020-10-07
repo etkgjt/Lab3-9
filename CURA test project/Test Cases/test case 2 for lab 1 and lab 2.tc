@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>login successfully + tao variable + waitForElementPresent + verifyElementText</description>
+   <name>test case 2 for lab 1 and lab 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0711700-e5a8-4697-bd85-77260d7fe50b</testCaseGuid>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com/?https://katalon-demo-cura.herokuapp.com/#summary'</defaultValue>
+      <description></description>
+      <id>62bf3fe2-7596-4517-9205-1eadf535aa0f</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>b131bfd3-9366-43b8-996f-3cf7cf5c9fa5</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>2b91d068-a417-4f6c-8153-764601ee98e9</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

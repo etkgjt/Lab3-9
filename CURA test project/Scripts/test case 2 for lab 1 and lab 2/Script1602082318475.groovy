@@ -18,17 +18,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/?https://katalon-demo-cura.herokuapp.com/#summary')
+WebUI.navigateToUrl(url)
 
 WebUI.click(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
 WebUI.click(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/input_Username_username'), user)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setText(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/input_Password_password'), password)
 
 WebUI.sendKeys(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/input_Password_password'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/h2_Make Appointment'), 30)
+
+WebUI.verifyElementText(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/h2_Make Appointment'), 'Make Appointment')
 
 WebUI.click(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
