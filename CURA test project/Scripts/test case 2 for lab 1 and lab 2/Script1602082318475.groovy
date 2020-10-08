@@ -24,9 +24,9 @@ WebUI.click(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/a_
 
 WebUI.click(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/input_Username_username'), user)
+WebUI.setText(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/input_Username_username'), GlobalVariable.username)
 
-WebUI.setText(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/input_Password_password'), password)
+WebUI.setText(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/input_Password_password'), GlobalVariable.password)
 
 WebUI.sendKeys(findTestObject('Object Repository/hh/Page_CURA Healthcare Service/input_Password_password'), Keys.chord(Keys.ENTER))
 
