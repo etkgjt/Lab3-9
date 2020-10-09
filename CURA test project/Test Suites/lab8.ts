@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>lab8</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>db2491ae-88a9-4f98-b3ec-2145539677d5</testSuiteGuid>
+   <testCaseLink>
+      <guid>1f3ff8a2-1865-4eab-89e4-bb96a020392b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/lab8</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fb2821fb-b0c5-4282-92e2-6b33360c19be</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/lab8</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fb2821fb-b0c5-4282-92e2-6b33360c19be</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>738a86ec-4c42-4af2-a7ce-c0931c743a7b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fb2821fb-b0c5-4282-92e2-6b33360c19be</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>823e3c23-75e9-49f3-9a53-b55239871213</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

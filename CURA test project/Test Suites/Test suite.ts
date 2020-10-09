@@ -15,7 +15,7 @@
       <guid>5abb642b-97a6-4131-ae7f-5d499c41d849</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/test case 1</testCaseId>
+      <testCaseId>Test Cases/test case 1 and profile_helthcare on lab4</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d32dbd9e-82e4-490e-a89c-508763889e85</guid>
